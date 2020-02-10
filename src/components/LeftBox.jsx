@@ -1,9 +1,12 @@
 import React from "react";
 
-function Header(){
-  var headerStyles = {
-      backgroundColor: 'cornflowerblue',
-      marginTop: '50'
+export default function LeftBox(){
+  var leftBoxStyles = {
+      backgroundColor: 'salmon',
+      marginTop: '50',
+      width: '30%',
+      marginLeft: '50px',
+      padding: '50'
   } 
   
   var pStyles = {
@@ -12,12 +15,10 @@ function Header(){
   }
 
   return (
-    <div style={headerStyles}>
+    <div style={leftBoxStyles}>
         <h1>Help Queue!!!!</h1>
         <p style={pStyles}>Tester Line</p>
     </div>  
     
   );
 }
-
-export default Header;
