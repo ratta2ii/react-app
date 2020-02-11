@@ -1,24 +1,24 @@
-import React from "react";
+import React from 'react';
 
-export default function LeftBox(){
+export default function LeftBox() {
   var leftBoxStyles = {
-      backgroundColor: 'salmon',
-      marginTop: '50',
-      width: '30%',
-      marginLeft: '50px',
-      padding: '50'
-  } 
-  
+    backgroundColor: 'salmon',
+    marginTop: '50',
+    width: '30%',
+    marginLeft: '50px',
+    padding: '50'
+  };
+
   var pStyles = {
-      fontSize: '50',
-      fontWeight: 'bolder'
-  }
+    fontSize: '50',
+    fontWeight: 'bolder'
+  };
 
   return (
     <div style={leftBoxStyles}>
-        <h1>Help Queue!!!!</h1>
-        <p style={pStyles}>Tester Line</p>
-    </div>  
-    
+      <h1>Help Queue!!!!</h1>
+      <p style={pStyles}>Tester Line</p>
+    </div>
+
   );
 }

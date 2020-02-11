@@ -1,20 +1,20 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Ticket(props){
+export default function Ticket(props) {
   return (
     <div>
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
-      <hr/>
+      <hr />
     </div>
   );
 }
 
-Ticket.PropTypes = {
-    names: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired, 
-    issue: PropTypes.string
+Ticket.propTypes = {
+  names: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  issue: PropTypes.string
 };
 
 // export default Ticket; (The export is decalared in the function)

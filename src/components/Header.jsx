@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react';
 
-function Header(){
+function Header() {
   var headerStyles = {
-      backgroundColor: 'cornflowerblue',
-      marginTop: '50'
-  } 
-  
+    backgroundColor: 'cornflowerblue',
+    marginTop: '50'
+  };
+
   var pStyles = {
-      fontSize: '50',
-      fontWeight: 'bolder'
-  }
+    fontSize: '50',
+    fontWeight: 'bolder'
+  };
 
   return (
     <div style={headerStyles}>
-        <h1>Help Queue!!!!</h1>
-        <p style={pStyles}>Tester Line</p>
-    </div>  
-    
+      <h1>Help Queue!!!!</h1>
+      <p style={pStyles}>Tester Line</p>
+    </div>
+
   );
 }
 
