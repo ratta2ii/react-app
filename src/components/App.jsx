@@ -7,9 +7,9 @@ import LeftBox from './LeftBox';
 function App() {
   return (
     <div>
-      <Navbar/>
-      <LeftBox/>
-      <TicketList/>
+      <Navbar />
+      <LeftBox />
+      <TicketList />
     </div>
   );
 }

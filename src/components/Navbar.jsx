@@ -13,7 +13,8 @@ export default function Navbar() {
     border: '2px solid gray',
     color: 'gray',
     padding: '6',
-    listStyleType: 'none'
+    listStyleType: 'none',
+    margin: '0 -1px'
   };
 
   var searchInputField = {

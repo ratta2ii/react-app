@@ -8,7 +8,7 @@ function TicketList() {
     <div>
       <Ticket
         location="3A"
-        names="Trevor & Jake"
+        names="Trevor & Sharon"
         issue="Firebase will not save record!" />
     </div>
   );
