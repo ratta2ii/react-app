@@ -1,9 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Ticket(props) {
+function Ticket(props) {
   return (
     <div>
+      {/* For LOCALLY scoped just omit the global keyword. */}
+      <style global jsx>{`
+          div {
+            background-color: red;
+          }
+        `}</style>
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
       <hr />
@@ -17,4 +23,16 @@ Ticket.propTypes = {
   issue: PropTypes.string
 };
 
-// export default Ticket; (The export is decalared in the function)
+export default Ticket;
+
+
+
+
+// It's common to combine all of the three styling options described so 
+// far (Styled-JSX, Styled-JSX with a global flag, and CSS objects).
+// React | Week 1 | React Fundamentals | Styling React: CSS Modules
+
+// Here is another example for a different component.
+
+
+
