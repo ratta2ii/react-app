@@ -28,11 +28,12 @@ export default Ticket;
 
 
 
-// It's common to combine all of the three styling options described so 
-// far (Styled-JSX, Styled-JSX with a global flag, and CSS objects).
+// It's common to combine all of the three styling options described so far
+// (Styled-JSX, Styled-JSX with a global flag, and CSS objects).
 // React | Week 1 | React Fundamentals | Styling React: CSS Modules
+// https://www.learnhowtoprogram.com/react/react-fundamentals/styling-react-css-modules
 
-// Here is another example for a different component.
+
 
 
 
