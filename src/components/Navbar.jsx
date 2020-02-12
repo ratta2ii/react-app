@@ -25,7 +25,8 @@ export default function Navbar() {
     borderRadius: '20px',
     textAlign: 'left',
     marginRight: '40px',
-    fontSize: '20px'
+    fontSize: '20px',
+    outline: 'none'
   };
 
   var tweetInputField = {
@@ -34,7 +35,8 @@ export default function Navbar() {
     width: '8%',
     border: '2px solid DeepSkyBlue',
     borderRadius: '20px',
-    fontSize: '20px'
+    fontSize: '20px',
+    outline: 'none'
   };
 
   return (
@@ -44,8 +46,16 @@ export default function Navbar() {
         <a href="#"><li style={listElements}>Notifications</li></a>
         <a href="#"><li style={listElements}>Messages</li></a>
       </ul>
-      <input style={tweetInputField} type="submit" value="Tweet" />
-      <input style={searchInputField} type="submit" value="Search Bar" />
+      <input
+          type='text'
+          id='tweet'
+          style={tweetInputField}
+          placeholder='Tweet' />
+        <input
+          type='text'
+          id='searchBar'
+          style={searchInputField}
+          placeholder='Search Bar' />
       <br />
     </div>
   );
